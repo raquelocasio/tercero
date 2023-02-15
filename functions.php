@@ -139,6 +139,7 @@ add_action( 'widgets_init', 'tercero_widgets_init' );
  */
 function tercero_scripts() {
 	wp_enqueue_style( 'tercero-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_enqueue_style( 'w3css','https://www.w3schools.com/w3css/4/w3.css', array(),false,'all');
 	wp_style_add_data( 'tercero-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'tercero-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
