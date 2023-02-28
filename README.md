@@ -1,4 +1,4 @@
-Tercero is a responsive WordPress theme created with Underscores and the W3.CSS framework.
+Tercero is a responsive WordPress theme created with [Underscores](https://underscores.me/) and the [W3.CSS framework](https://www.w3schools.com/w3css/default.asp).
 
 The idea is to keep the structure of the Underscores theme, and make it pretty using the styles of W3.CSS.
 
